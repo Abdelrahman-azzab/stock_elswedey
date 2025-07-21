@@ -2,5 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "nodeVersion": "18.x"
+  "nodeVersion": "18.x",
+  "ignoreCommand": "echo 'no ignore'"
 }
