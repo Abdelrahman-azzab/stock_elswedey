@@ -2,12 +2,14 @@
   "name": "mokhzoun-elswedey-react-app",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
+ "scripts": {
   "start": "vite",
-  "build": "node --trace-uncaught ./node_modules/vite/bin/vite.js build",
+  "build": "node ./node_modules/vite/bin/vite.js build",
   "dev": "vite",
-  "serve": "vite preview"
+  "serve": "vite preview",
+  "postinstall": "chmod +x ./node_modules/vite/bin/vite.js"
 },
+
   "dependencies": {
     "i18next": "^23.10.0",
     "react": "^18.2.0",
